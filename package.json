@@ -1,6 +1,6 @@
 {
     "name": "ionic4-calendar-picker-honeycombbe",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "IONIC 4 Datepicker Calendar Embed",
     "main": "./dist/index.js",
     "typings": "./dist/index.d.ts",
