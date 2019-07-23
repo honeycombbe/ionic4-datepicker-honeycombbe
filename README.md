@@ -2,19 +2,21 @@
 
 This is a date picker component for your Ionic 4 app.
 
+Fixed many issues from Venkata Surya Sagi @ionic4-date-picker
+
 
 ## How to use ###
 
 ### 1) Install using npm ###
 
 ```
-    npm i ionic4-date-picker --save
+    npm i ionic4-calendar-picker-honeycombbe --save
 ```
 
 ### 2) Add it to your ngModule in <yourPage>.module ###
 
 ```
-import { DatePickerModule } from 'ionic4-date-picker';
+import { DatePickerModule } from 'ionic4-calendar-picker-honeycombbe';
 ```
 ```
    
