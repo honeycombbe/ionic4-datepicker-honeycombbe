@@ -12,7 +12,7 @@
             "dom",
             "es2017"
         ],
-        "outDir": "dist"
+        "outDir": "dist",
     },
     "exclude": [
         "node_modules",
