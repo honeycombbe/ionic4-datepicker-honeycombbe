@@ -35,6 +35,17 @@ import { DatePickerModule } from 'ionic4-calendar-picker-honeycombbe';
     <ionic-calendar-date-picker (onSelect)="dateSelected($event)"></ionic-calendar-date-picker>	
 ```
 
+### 4) Modify Calendar Classes
+```	
+	Add to global.scss
+	
+	.ionicCalendarDayLabel
+	.ionicCalendarMonthBtn
+	.ionicCalendarYearBtn
+	.ionicCalendarNext
+	.ionicCalendarPrevious
+	
+```
 
 ## Options ###
 

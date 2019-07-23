@@ -26,7 +26,7 @@ const HTML_CODE = `
 
     <ion-grid *ngIf="showView === 'calendar'">
         <ion-row>
-            <ion-col *ngFor="let daylabel of dayLabels" text-center [ngStyle]="dayLabelsStyle">
+            <ion-col class="ionicCalendarDayLabel" *ngFor="let daylabel of dayLabels" text-center [ngStyle]="dayLabelsStyle">
                 {{daylabel}}
             </ion-col>
         </ion-row>
