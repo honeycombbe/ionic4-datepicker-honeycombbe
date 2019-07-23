@@ -1,6 +1,6 @@
 {
     "name": "ionic4-calendar-picker-honeycombbe",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "description": "IONIC 4 Datepicker Calendar Embed",
     "main": "./dist/index.js",
     "typings": "./dist/index.d.ts",
@@ -14,7 +14,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/honeycombbe/ionic4-datepicker-honeycombbe"
+        "url": "git+https://github.com/honeycombbe/ionic4-datepicker-honeycombbe.git"
     },
     "keywords": [
         "ionic4",
