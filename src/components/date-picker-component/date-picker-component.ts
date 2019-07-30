@@ -135,12 +135,12 @@ export class DatePickerComponent implements OnInit {
 
   @Input() backgroundStyle = { 'background-color': '#ffffff' };
   @Input() notInCalendarStyle = { 'color': '#8b8b8b' };
-  @Input() dayLabelsStyle = { 'font-weight': 500, 'font-size': '14px' };
+  @Input() dayLabelsStyle = { 'font-weight': 'bold', 'font-size': '14px' };
   @Input() monthLabelsStyle = {  'font-size': '15px' };
   @Input() yearLabelsStyle = {  'font-size': '15px' };
   @Input() itemSelectedStyle = { 'background': '#488aff', 'color': '#f4f4f4 !important' };
   @Input() invalidDateStyle = { 'text-decoration': 'line-through', 'color': 'red' };
-  @Input() todaysItemStyle = { 'color': '#32db64' };
+  @Input() todaysItemStyle = { };
 
   @Output() onSelect: EventEmitter<Date> = new EventEmitter();
 
@@ -368,6 +368,10 @@ export class DatePickerComponent implements OnInit {
 
   isToday(day) {
     return this.yearSelected === this.currentYear && this.monthSelected === this.currentMonth && this.currentDay === day;
+  }
+  
+  isTodayCheck(day) {
+    return moment().format('YYYY-MM-DD') == day;
   }
 
   generateCalendarWeeks(forDay: Day): Array<any> {

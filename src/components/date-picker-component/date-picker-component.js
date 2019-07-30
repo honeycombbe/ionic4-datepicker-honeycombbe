@@ -204,6 +204,9 @@ var DatePickerComponent = (function () {
     DatePickerComponent.prototype.isToday = function (day) {
         return this.yearSelected === this.currentYear && this.monthSelected === this.currentMonth && this.currentDay === day;
     };
+	 DatePickerComponent.prototype.isTodayCheck = function (day) {
+		return moment().format('YYYY-MM-DD') == day;
+    };
     DatePickerComponent.prototype.generateCalendarWeeks = function (forDay) {
         var weeks = [];
         var month = dayspan_1.Calendar.months(1, forDay);
