@@ -266,7 +266,7 @@ var DatePickerComponent = (function () {
     //Styles
     DatePickerComponent.prototype.getDayStyle = function (day) {
         var style = {};
-        if (this.isToday(day.dayOfMonth)) {
+        if (this.isTodayCheck(day.format('YYYY-MM-DD'))) {
             style = this.todaysItemStyle;
         }
         if (this.daySelected && day.dayIdentifier === this.daySelected.dayIdentifier) {

@@ -447,7 +447,7 @@ export class DatePickerComponent implements OnInit {
 
   getDayStyle(day: Day) {
     let style = {};
-    if (this.isToday(day.dayOfMonth)) {
+    if (this.isTodayCheck(day.format('YYYY-MM-DD'))) {
       style = this.todaysItemStyle;
     }
 
