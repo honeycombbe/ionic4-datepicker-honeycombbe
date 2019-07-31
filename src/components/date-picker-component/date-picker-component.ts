@@ -138,7 +138,7 @@ export class DatePickerComponent implements OnInit {
   @Input() dayLabelsStyle = { 'font-weight': 'bold', 'font-size': '14px' };
   @Input() monthLabelsStyle = {  'font-size': '15px' };
   @Input() yearLabelsStyle = {  'font-size': '15px' };
-  @Input() itemSelectedStyle = { 'background': '#488aff', 'color': '#f4f4f4 !important' };
+  @Input() itemSelectedStyle = { 'background': '#488aff', 'color': '#f4f4f4' };
   @Input() invalidDateStyle = { 'text-decoration': 'line-through', 'color': 'red' };
   @Input() todaysItemStyle = { };
 
