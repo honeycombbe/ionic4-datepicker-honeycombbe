@@ -103,7 +103,7 @@ const CSS_STYLE = `
     font-weight: 550;
     &.button[disabled] {
       opacity: 1;
-      color: gray !important;
+      color: gray;
     }
   }
 
@@ -138,7 +138,7 @@ export class DatePickerComponent implements OnInit {
   @Input() dayLabelsStyle = { 'font-weight': 'bold', 'font-size': '14px' };
   @Input() monthLabelsStyle = {  'font-size': '15px' };
   @Input() yearLabelsStyle = {  'font-size': '15px' };
-  @Input() itemSelectedStyle = { 'background': '#488aff', 'color': '#f4f4f4' };
+  @Input() itemSelectedStyle = { 'background': '#488aff', 'color': '#ffffff' };
   @Input() invalidDateStyle = { 'text-decoration': 'line-through', 'color': 'red' };
   @Input() todaysItemStyle = { };
 
